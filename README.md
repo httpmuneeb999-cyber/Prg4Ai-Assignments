@@ -1,4 +1,3 @@
-Here is a comprehensive and well-structured `README.md` file for your Python project collection. You can copy and paste this directly into a `README.md` file in your project directory.
 
 ---
 
@@ -68,14 +67,38 @@ This repository contains a collection of 5 independent Python scripts designed f
 
 ---
 
-## How to Run
+## 🚀 How to Run locally
 
-Make sure you have **Python 3.x** installed on your system. Run any script from your terminal using:
+### 1. Replicate the Workspace
+
+Clone the repository to your local machine:
 
 ```bash
-python 01.py
-# or substitute with the desired file number (01.py to 05.py)
+git clone https://github.com
+cd Prg4Ai-Assignments
 
+```
+
+### 2. Set Up the Environment
+
+Initialize a clean virtual environment and activate it:
+
+```bash
+# Windows
+python -m venv .venv
+.venv\Scripts\activate
+
+# macOS/Linux
+python3 -m venv .venv
+source .venv/bin/activate
+
+```
+
+---
+
+## 📝 Configuration Note
+
+> 🔒 **Security Notice:** The `.venv/` directory is explicitly hidden from production commits via `.gitignore` to maintain an optimized, dependency-agnostic source tree.
 ```
 
 ```
